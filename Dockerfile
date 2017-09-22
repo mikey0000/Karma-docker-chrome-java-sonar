@@ -6,4 +6,4 @@ RUN apt-get update && \
     chromium-browser \
     libgconf-2-4
 
-ENV CHROME_BIN /usr/bin/chromium
+ENV CHROME_BIN /usr/bin/chromium-browser
