@@ -25,8 +25,4 @@ RUN DEBIAN_FRONTEND="noninteractive" \
     dotnet-sharedframework-microsoft.netcore.app-1.1.4 \
     dotnet-dev-1.1.4
     
-RUN wget -O azcopy.tar.gz https://aka.ms/downloadazcopyprlinux && \
-    tar -xf azcopy.tar.gz && \
-    ./install.sh
-    
 ENV CHROME_BIN /usr/bin/chromium-browser
