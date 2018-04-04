@@ -31,6 +31,4 @@ RUN DEBIAN_FRONTEND="noninteractive" \
     dotnet-sharedframework-microsoft.netcore.app-1.1.4 \
     dotnet-dev-1.1.4
     
-RUN nvm install 8 && npm install -g gulp bower
-    
 ENV CHROME_BIN /usr/bin/chromium-browser
