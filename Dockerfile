@@ -33,7 +33,7 @@ RUN DEBIAN_FRONTEND="noninteractive" \
     
 ENV CHROME_BIN /usr/bin/chromium-browser
 
-ENV NVM_DIR /usr/local/nvm
+ENV NVM_DIR ~/.nvm
 ENV NODE_VERSION 8
 
 # Install nvm with node and npm
